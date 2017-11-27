@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var clases_1 = require("./clases");
+var cabraldo = new clases_1.jugador("Cabraldo", "Real Mierda", -20);
+console.log(cabraldo);
+cabraldo.borracho();
+console.log("\n-----------------------------------------------------------------------------\n");
+var messi = new clases_1.jugador("Messi", "Barcelona", 190);
+console.log(messi);
+messi.heroe();
